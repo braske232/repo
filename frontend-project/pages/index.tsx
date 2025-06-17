@@ -23,9 +23,15 @@ export default function HomePage() {
         <DragDropEditor />
         <RealtimePreview />
         <ProgressBar progress={65} /> {/* Example progress */}
-        <VideoPlayer videoSrc="" /> {/* Example with no video source */}
+
+        <div>
+          <h2 className="text-2xl font-semibold mt-8 mb-4 text-center">
+            Interactive Video Player
+          </h2>
+          <VideoPlayer />
+        </div>
         {/* Example with a placeholder video source (replace with an actual video URL for testing) */}
-        {/* <VideoPlayer videoSrc="https://www.w3schools.com/html/mov_bbb.mp4" /> */}
+        {/* <VideoPlayer /> */}
       </main>
     </div>
   );
